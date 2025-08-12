@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Html - Basics</title>
+
+    <style>
+        * {
+            margin: 20px;
+
+        }
+
+        .c1 {
+            color: yellow;
+        }
+
+        .c2 {
+            color: orangered;
+        }
+
+        .c3 {
+            color: rgb(11, 208, 99);
+        }
+
+        .c4 {
+            color: white;
+        }
+
+        .m1 {
+            background-color: beige;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .m2 {
+            background-color: gold;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .m3 {
+            background-color: whitesmoke;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .m4 {
+            background-color: aliceblue;
+            border-width: 3px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        .head {
+            text-align: center;
+            align-items: center;
+            justify-self: center;
+            color: blue;
+            font-weight: bold;
+            text-transform: capitalize;
+            text-decoration: underline;
+        }
+
+        .end {
+            text-align: end;
+            align-items: end;
+            justify-content: end;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!--Heading Tags---------------------------------------------------------------->
+
+    <section class="">
+        <div class="m1">
+            <h3 class="head">Heading Tags</h3>
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+            <p>p</p>
+            <p class="end"> 70 - 82</p>
+        </div>
+    </section>
+
+
+    <!--Pragraph Highlighter  -------------------------------------------------->
+    <section>
+        <div class="m4">
+            <h3 class="head">paragraph highlighter tags</h3>
+            <ol>
+                <li>span </li>
+                <li>em </li>
+                <li>strong</li>
+                <li>mark</li>
+            </ol>
+
+            <p>
+
+                Dragon Ball<span class="c1"> span tag is Generic inline container for styling with CSS </span> is a
+                Japanese anime and <strong class="c3"> strong tag is Semantic emphasis (important text) — usually
+                    bold</strong> manga series created by Akira Toriyama. <em class="c4"> em tag is Semantic emphasis
+                    (stress emphasis) — usually italic</em>It follows the adventures of Son Goku, a cheerful, strong,
+                and naive martial artist with a monkey tail, as he trains to become stronger and searches <mark
+                    class="">mark tag is Highlighted text</mark>for the seven magical Dragon Balls, which can summon a
+                wish-granting dragon. Along the way.
+            </p>
+            <p class="end"> 100 - 122</p>
+        </div>
+    </section>
+
+    <!-- List Tags-->
+    <section>
+        <h3 class="head">List Types</h3>
+        <div class="m3 d-flex justify-content-evenly">
+
+            <!--Ul List-->
+            <div class="m1" style="width: 200px;">
+                <h3>unorder list</h3>
+                <ul style="list-style-type: circle;">
+                    <li>disc</li>
+                    <li>circle</li>
+                    <li>square</li>
+                    <li>none</li>
+                </ul>
+                <p class="end"> 131 - 140</p>
+            </div>
+            <!--Ol list-->
+            <div class="m2" style="width: 250px;">
+                <h3>order list</h3>
+                <ol style="list-style-type: upper-roman;">
+                    <li>decimal</li>
+                    <li>lower-alpha</li>
+                    <li>upper-alpha</li>
+                    <li>upper-roman</li>
+                </ol>
+                <p class="end"> 142 - 149</p>
+            </div>
+            <!--Dl list-->
+            <div class="m4 " style="width: 250px;">
+                <h3>description list</h3>
+                <dl>
+                    <dt>Goku</dt>
+                    <dd>The main protagonist of Dragon Ball.</dd>
+
+                    <dt>Vegeta</dt>
+                    <dd>The Saiyan prince and rival to Goku.</dd>
+                </dl>
+                <p class="text-info end"> 153 - 162</p>
+
+            </div>
+            <p class="end"> 126 - 165</p>
+        </div>
+    </section>
+
+
+
+    <!-- Input Tags -->
+    <section class="">
+        <h3 class="head">Input Tags</h3>
+        <div class="m4 d-flex justify-content-evenly">
+
+            <!--Radio-->
+            <div class="m1" style="width: 200px;">
+                <h3>Radio</h3>
+
+                <form>
+                    <label>
+                        <input type="radio" name="character" value="goku"> Goku
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="character" value="vegeta"> Vegeta
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="character" value="piccolo"> Piccolo
+                    </label>
+                </form>
+<p class="end"> 178 - 196</p>
+
+            </div>
+
+            <!--check box-->
+            <div class="m2" style="width: 200px;">
+                <h3>Radio</h3>
+
+                <form>
+                    <label>
+                        <input type="checkbox" name="character" value="goku"> Goku
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="character" value="vegeta"> Vegeta
+                    </label><br>
+
+                    <label>
+                        <input type="checkbox" name="character" value="piccolo"> Piccolo
+                    </label>
+                </form>
+
+               
+
+                <p class="end"> 199 - 218</p>
+            </div>
+
+            <!--Others----------->
+
+            <div class="m2" style="width: 270px;">
+                <h3>Others</h3>
+
+                <ol start="list-style-type=decimal">
+                    <li><input type="text" placeholder="text"></li>
+                    <li><input type="password" placeholder="password"></li>
+                    <li><input type="email" placeholder="email"></li>
+                    <li><input type="number" placeholder="number"></li>
+                    <li><input type="search" placeholder="search"></li>
+                </ol>
+
+                <p class="end"> 221 - 235</p>
+            </div>
+
+        </div>
+    </section>
+
+<!--Buttons------------>
+<section>
+    <div class="m1 d-flex flex-column justify-content-center align-items-center text-center">
+        <h3 class="head">Button Tags</h3>
+        <button type="submit" class="btn btn-primary m-2">Submit</button>
+        <button type="reset" class="btn btn-danger m-2">Reset</button>
+        <p class="end">238 - 247</p>
+    </div>
+</section>
+
+
+
+</body>
+
+</html>
