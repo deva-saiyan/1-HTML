@@ -8,6 +8,7 @@
     <style>
         * {
             margin: 20px;
+            scroll-behavior: smooth;
 
         }
 
@@ -42,14 +43,14 @@
         }
 
         .m3 {
-            background-color: whitesmoke;
+            background-color: rgb(98, 245, 142);
             border-width: 3px;
             border-style: solid;
             border-color: black;
         }
 
         .m4 {
-            background-color: aliceblue;
+            background-color: rgb(35, 144, 240);
             border-width: 3px;
             border-style: solid;
             border-color: black;
@@ -81,8 +82,8 @@
 
     <!--Heading Tags---------------------------------------------------------------->
 
-    <section class="">
-        <div class="m1">
+    <section>
+        <div class="m1" id="one">
             <h3 class="head">Heading Tags</h3>
             <h1>h1</h1>
             <h2>h2</h2>
@@ -189,7 +190,7 @@
                         <input type="radio" name="character" value="piccolo"> Piccolo
                     </label>
                 </form>
-<p class="end"> 178 - 196</p>
+                <p class="end"> 178 - 196</p>
 
             </div>
 
@@ -211,7 +212,7 @@
                     </label>
                 </form>
 
-               
+
 
                 <p class="end"> 199 - 218</p>
             </div>
@@ -235,17 +236,115 @@
         </div>
     </section>
 
-<!--Buttons------------>
-<section>
-    <div class="m1 d-flex flex-column justify-content-center align-items-center text-center">
-        <h3 class="head">Button Tags</h3>
-        <button type="submit" class="btn btn-primary m-2">Submit</button>
-        <button type="reset" class="btn btn-danger m-2">Reset</button>
-        <p class="end">238 - 247</p>
-    </div>
-</section>
+    <!--Buttons------------>
+    <section>
+        <div class="m1 d-flex flex-column justify-content-center align-items-center text-center">
+            <h3 class="head">Button Tags</h3>
+            <button type="submit" class="btn btn-primary m-2">Submit</button>
+            <button type="reset" class="btn btn-danger m-2">Reset</button>
+            <p class="end">238 - 247</p>
+        </div>
+    </section>
+
+    <!--Table-->
+    <section class="">
+        <div class="m2">
+            <h3 class="head"> Table Tags </h3>
+            <center>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>No</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Deva</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Raj</td>
+                            <td>21</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </center>
+
+            <p class="end"> 249 - 277</p>
+        </div>
+    </section>
 
 
+    <!--Imaes-->
+
+    <section class="">
+        <h3 class="head">Image video audio Tags</h3>
+
+        <!--img-->
+        <div class="m3 d-flex justify-content-evenly">
+            <div class="m1 " style="width: 250px;">
+                <img src="img/aa.png" alt="Brown dog" title="This is a menu" width="200" loading="lazy">
+            </div>
+
+            <!--Video-->
+            <div class="m2" style="width: 250px;">
+
+                <video width="200" muted loop controls poster="img/a.png" title="video">
+                    <source src="img/v.mp4" type="video/mp4">
+                    <source src="img/v2.mp4" type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
+
+            </div>
+
+            <!--Audio-->
+            <div class="m4">
+                <audio controls loop style="width: 150px;">
+                    <source src="img/wasted.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+
+            <div class="m1 " style="width: 250px;">
+                <img src="img/i.png" alt="Brown dog" title="This is a boy" width="200" loading="lazy">
+            </div>
+            <p class="end"> 2849 - 317</p>
+        </div>
+
+    </section>
+
+    <!-- Anger Tags---------------------------------------------------------------->
+
+    <section class="">
+        <div class="m1">
+            <h3 class="head">Anger Tags</h3>
+            <a href="#one">🎀</a>
+            <p class="end"> 322 - 329</p>
+        </div>
+    </section>
+
+
+    <!-- drop down---------------------------------------------------------------->
+
+    <section class="">
+        <div class="m3">
+            <h3 class="head">drop down</h3>
+            <label for="fruits">Choose a fruit:</label>
+            
+            <select id="fruits" name="fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+
+            <p class="end"> 332 - 345</p>
+        </div>
+    </section>
 
 </body>
 
